@@ -1,0 +1,90 @@
+/* сначала хотел что-то сделать, а потом кааак передумал */
+
+body {
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-of-workstation-with-copy-space-and-laptop_23-2148430879.jpg?w=1480&t=st=1703265230~exp=1703265830~hmac=ac884b691e76765c03e0c802064cf1e2bcd5ab8617fe9ccee8ee5e12df91af12);
+    width: 100%;
+}
+
+#cardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 1240px;
+    gap: 40px;
+}
+
+.cssCard {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 1000;
+}
+
+.input-container {
+    padding-top: 200px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.text {
+    width: 150px;
+    display: block;
+    height: 20px;
+    padding: 8px;
+    font-family: inherit;
+    font-size: 10px;
+    font-weight: 300;
+    color: brown;
+    background-color: whitesmoke;
+    border: 1px solid blue;
+}
+
+h3 {
+    color: aqua;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 900;
+    font-size: large;
+    text-align: center;
+}
+
+p {
+    color: blue;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 50;
+    font-size: small;
+    padding-left: 130px;
+    text-decoration: underline;
+}
+
+#addButton {
+    color: darkgreen;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#deleteButton {
+    background: local;
+    width: 65px;
+    border-radius: 20px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    /* margin-left: 270px; */
+    display: block; 
+    border: none;
+    background: fixed;
+}
